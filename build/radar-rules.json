@@ -20590,22 +20590,17 @@
       }
     ]
   },
-  "openwrt.org": {
-    "_name": "Unknown",
+  "oschina.net": {
+    "_name": "openeyes",
     ".": [
       {
-        "title": "Unknown",
-        "docs": "https://docs.rsshub.app/routes/other",
+        "title": "Comment",
+        "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
-          "/toh/:band/:model"
+          "/comment/news"
         ],
-        "target": "/openwrt/releases/:model"
-      }
-    ]
-  },
-  "oschina.net": {
-    "_name": "开源中国",
-    ".": [
+        "target": "/openeyes/comment/news"
+      },
       {
         "title": "资讯",
         "docs": "https://docs.rsshub.app/routes/programming",
@@ -20639,6 +20634,19 @@
           "/u/:uid"
         ],
         "target": "/oschina/user/:id"
+      }
+    ]
+  },
+  "openwrt.org": {
+    "_name": "Unknown",
+    ".": [
+      {
+        "title": "Unknown",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/toh/:band/:model"
+        ],
+        "target": "/openwrt/releases/:model"
       }
     ]
   },

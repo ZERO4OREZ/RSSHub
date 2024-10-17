@@ -4788,6 +4788,9 @@
   "/openai/research": [
     "yuguorui"
   ],
+  "/openeyes/comment/news": [
+    "h4cd"
+  ],
   "/openwrt/releases/:brand/:model": [],
   "/orcid/:id": [
     "OrangeEd1t"
