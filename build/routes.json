@@ -55538,46 +55538,6 @@
     "name": "OpenAI",
     "url": "openai.com"
   },
-  "openeyes": {
-    "routes": {
-      "/comment/news": {
-        "path": "/comment/news",
-        "categories": [
-          "programming"
-        ],
-        "example": "/openeyes/comment/news",
-        "parameters": {
-          "newsID": "news id"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": false
-        },
-        "radar": [
-          {
-            "source": [
-              "oschina.net/comment/news"
-            ]
-          }
-        ],
-        "name": "Comment",
-        "maintainers": [
-          "h4cd"
-        ],
-        "location": "comment.ts"
-      }
-    },
-    "name": "openeyes",
-    "url": "oschina.net",
-    "description": "小刀 la 屁股",
-    "zh": {
-      "name": "开了眼了"
-    }
-  },
   "openwrt": {
     "routes": {
       "/releases/:brand/:model": {
